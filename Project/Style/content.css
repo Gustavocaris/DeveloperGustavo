@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    background-color: rgb(255, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* scroll mais lento*/
+}
+
+body {
+    font-family: "Source Code Pro", monospace;
+}
+
+#content {
+    height: 100vh;
+    width: 100%;
+
+    display: flex; /*pra dividir e ficar mais maleavel*/
+    align-items: center;
+
+    background: rgb(38, 255, 0);
+}
+
+.content-one {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: darkgoldenrod;
+}
