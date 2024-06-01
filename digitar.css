@@ -61,7 +61,7 @@ body {
     height: 100%;
     padding: 0px 0px 10px 0px;
     left: 0;
-    border-left: 12px solid green;
+    border-left: 12px solid #39ff14;
     animation: typing 1.5s steps(15) infinite;
     background-color: black; /*cor que vai cobrir as outras*/
 } 
