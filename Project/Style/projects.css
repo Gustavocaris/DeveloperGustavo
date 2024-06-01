@@ -1,12 +1,28 @@
 #project {
     height: 100vh;
     width: 100%;
-    background-image: url('macbook1.jpg');
-
+    position: relative;
+    overflow: hidden; /* Esconde o que ultrapassar do contêiner */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+  }
+  /* Pra esconder atras das divs*/
+  #project::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('macbook1.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    filter: brightness(60%) blur(4px); /* Aplica o filtro à imagem */
+    z-index: -1; /* Garante que o pseudo-elemento fique atrás dos outros conteúdos */
+  }
 
 
 .project-title h2 {
