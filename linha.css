@@ -8,7 +8,7 @@
 body  {
     width: 100%;
     min-height: 100vh;
-    background: white;
+    background: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@ main.row {
 }
 
 .coluna-00 header.coluna-titulo {
-    color: red;
+    color: rgb(0, 255, 0);
 }
 
 .coluna-00 .content {
@@ -59,8 +59,8 @@ main.row {
     border-radius: 50%;
     right: calc(100% + 22px);
     top: 0;
-    background-color: blue;
-    border: solid 2px black;
+    background-color: rgb(0, 255, 0);
+    border: solid 2px rgb(0, 0, 0);
 }
 
 .box h4 {
@@ -77,7 +77,7 @@ main.row {
 
 .box p {
     line-height: 1.2;
-    color: darkgrey;
+    color: white;
     font-size: 17px;
 }
 
