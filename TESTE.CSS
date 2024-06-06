@@ -8,6 +8,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -17,40 +18,91 @@ body {
 }
 
 .container span {
-    animation: brilho 5s ease-in-out infinite;
+    animation: brilho 12s ease-in-out infinite;
 }
 
-.container span:nth-of-type(2) {
+.container-dev span {
+    animation: brilho 7.5s ease-in-out infinite;
+}
+
+
+.container span:nth-of-type(1) {
     animation-delay: 0.5s;
 }
 
-.container span:nth-of-type(3) {
+.container span:nth-of-type(2) {
     animation-delay: 1s;
 }
 
-.container span:nth-of-type(4) {
+.container span:nth-of-type(3) {
     animation-delay: 1.5s;
 }
 
-.container span:nth-of-type(5) {
+.container span:nth-of-type(4) {
     animation-delay: 2s;
 }
 
-.container span:nth-of-type(6) {
+.container span:nth-of-type(5) {
     animation-delay: 2.5s;
 }
 
-.container span:nth-of-type(7) {
+.container span:nth-of-type(6) {
     animation-delay: 3s;
 }
 
-.container span:nth-of-type(8) {
+.container span:nth-of-type(7) {
     animation-delay: 3.5s;
 }
 
-.container span:nth-of-type(9) {
+.container span:nth-of-type(8) {
     animation-delay: 4s;
 }
+
+
+
+
+.container-dev span:nth-of-type(1) {
+    animation-delay: 4.5s;
+}
+
+.container-dev span:nth-of-type(2) {
+    animation-delay: 5s;
+}
+
+.container-dev span:nth-of-type(3) {
+    animation-delay: 5.5s;
+}
+
+.container-dev span:nth-of-type(4) {
+    animation-delay: 6s;
+}
+
+.container-dev span:nth-of-type(5) {
+    animation-delay: 6.5s;
+}
+
+.container-dev span:nth-of-type(6) {
+    animation-delay: 7s;
+}
+
+.container-dev span:nth-of-type(7) {
+    animation-delay: 7.5s;
+}
+
+.container-dev span:nth-of-type(8) {
+    animation-delay: 8s;
+}
+
+.container-dev span:nth-of-type(9) {
+    animation-delay: 8.5s;
+}
+
+
+
+
+
+
+
 
 @keyframes brilho {
     0% {
