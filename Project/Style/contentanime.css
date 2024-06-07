@@ -1,83 +1,64 @@
-.container span {
-    animation: brilho 12s ease-in-out infinite;
+.name-page {
+    display: flex;
+    flex-direction: row; 
+    gap: 30px;
 }
 
-.container-dev span {
-    animation: brilho 7.5s ease-in-out infinite;
+.name-gu span {
+    animation: brilho 60s ease-in-out infinite;
 }
 
+.name-car span {
+    animation: brilho 60s ease-in-out infinite;
+}
 
-.container span:nth-of-type(1) {
+.name-gu span:nth-of-type(1) {
     animation-delay: 0.5s;
 }
 
-.container span:nth-of-type(2) {
+.name-gu span:nth-of-type(2) {
     animation-delay: 1s;
 }
 
-.container span:nth-of-type(3) {
+.name-gu span:nth-of-type(3) {
     animation-delay: 1.5s;
 }
 
-.container span:nth-of-type(4) {
+.name-gu span:nth-of-type(4) {
     animation-delay: 2s;
 }
 
-.container span:nth-of-type(5) {
+.name-gu span:nth-of-type(5) {
     animation-delay: 2.5s;
 }
 
-.container span:nth-of-type(6) {
+.name-gu span:nth-of-type(6) {
     animation-delay: 3s;
 }
 
-.container span:nth-of-type(7) {
+.name-gu span:nth-of-type(7) {
     animation-delay: 3.5s;
 }
 
-.container span:nth-of-type(8) {
+.name-car span:nth-of-type(1) {
     animation-delay: 4s;
 }
 
-
-
-
-.container-dev span:nth-of-type(1) {
+.name-car span:nth-of-type(2) {
     animation-delay: 4.5s;
 }
 
-.container-dev span:nth-of-type(2) {
+.name-car span:nth-of-type(3) {
     animation-delay: 5s;
 }
 
-.container-dev span:nth-of-type(3) {
+.name-car span:nth-of-type(4) {
     animation-delay: 5.5s;
 }
 
-.container-dev span:nth-of-type(4) {
+.name-car span:nth-of-type(5) {
     animation-delay: 6s;
 }
-
-.container-dev span:nth-of-type(5) {
-    animation-delay: 6.5s;
-}
-
-.container-dev span:nth-of-type(6) {
-    animation-delay: 7s;
-}
-
-.container-dev span:nth-of-type(7) {
-    animation-delay: 7.5s;
-}
-
-.container-dev span:nth-of-type(8) {
-    animation-delay: 8s;
-}
-
-.container-dev span:nth-of-type(9) {
-    animation-delay: 8.5s;
-}
-
 
 
 
@@ -88,9 +69,9 @@
 @keyframes brilho {
     0% {
         color: white;
-        text-shadow: 0 0 12px purple,
-        0 0 50px purple,
-        0 0 100px purple;
+        text-shadow: 0 0 10px #39ff14,
+        0 0 30px rgb(255, 255, 255),
+        0 0 80px rgb(255, 255, 255);
     }
     10%, 90% {
         color: darkgray;

@@ -23,6 +23,58 @@ body {
     color: darkgray;
 }
 
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 5px 10px;
+    background: black;
+    border-bottom: 1.5px solid #39ff14;
+
+    z-index: 2;
+    text-decoration: none;
+}
+
+.header-name {
+    text-decoration: none;
+}
+
+.header-name h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: opacity .2s ease;
+}
+
+.header-name h1:hover {
+    opacity: .8;
+}
+
+.navbar {
+    max-width: 500px;
+    width: 100%;
+
+}
+
+.navbar ul {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
+
 #content {
     height: 100vh;
     width: 100%;
@@ -32,20 +84,24 @@ body {
     justify-content: center; /* para centralizar verticalmente */
      /* espaçamento entre as divs */
     background: black;
-    padding: 20px; /* espaçamento interno */
+    /* espaçamento interno */
 }
 
-.describ {
-    display: flex;
-    flex-direction: row; 
-    gap: 30px;
-}
 
-.container, .container-dev {
+
+.name-page {
     display: flex;
     flex-direction: row; 
     font-family: "Source Code Pro", monospace;
     font-size: 4rem;
+    gap: none;
+}
+
+h2 {
+    display: flex;
+    flex-direction: row; 
+    font-family: "Source Code Pro", monospace;
+    font-size: 3.2rem;
     gap: none;
 }
 
@@ -62,7 +118,7 @@ body {
 .profile-photo {
     padding: 10px 0px 0px 0px;
     position: relative;
-    top: -20px;
+    top: -85px;
 }
 .profile-photo .photo {
     background: linear-gradient(to top right, #ffa500 0%, #ff1493 100%);
@@ -84,7 +140,9 @@ body {
 }
 
 .links {
+    position: relative;
     padding: 0px 0px 40px 0px;
+    top: -60px;
 }
 
 .links a {
@@ -112,6 +170,12 @@ body {
     
     padding: 0px 0px 10px 0px;
 
-    color: #ff0000;
     
+    position: relative;
+    top: -50px;
+    
+}
+
+.describ {
+    color: white;
 }
