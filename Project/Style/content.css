@@ -10,6 +10,8 @@
 
 html {
     scroll-behavior: smooth; /* scroll mais lento*/
+    
+    
 }
 
 body {
@@ -76,7 +78,7 @@ body {
 }
 
 #content {
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -84,6 +86,9 @@ body {
     justify-content: center; /* para centralizar verticalmente */
      /* espaçamento entre as divs */
     background: black;
+
+    position: relative;
+
 }
 
 
