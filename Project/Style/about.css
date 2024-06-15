@@ -35,6 +35,8 @@
     border-bottom: 5px solid #39ff14;
     
     margin: 0 20px; /* Margem lateral para garantir espaço nas bordas */
+    display: grid;
+    gap: 5px; /* Espaça os parágrafos */
 }
 
 .content-about h2 {
@@ -42,13 +44,20 @@
     font-size: 2em;
     text-align: center;
     display: grid;
-    justify-content: baseline;
+    
     align-items: center;
 }
 
 .content-about p {
     font-size: 1em;
     line-height: 1.5;
-    display: grid;
-    gap: 20px;
+    text-align: justify; /* Alinha o texto dos parágrafos */
+    
+}
+
+.content-about p span.crs {
+    color: rgb(0, 255, 13);
+}
+.content-about p span.lang {
+    color: rgb(246, 255, 0);
 }
