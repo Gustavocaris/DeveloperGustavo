@@ -20,12 +20,14 @@ main.row {
     grid-template-columns: 1fr 1fr;
 }
 
-.coluna-00 header.coluna-titulo {
+.coluna-00 header.coluna-titulo h2 {
+    
     text-align: center;
     padding: 18px;
     color: rgb(17, 0, 255);
 
 }
+
 
 .coluna-00 .content {
     padding: 0 29px;

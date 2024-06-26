@@ -41,13 +41,25 @@ body {
 
 .header-name {
     text-decoration: none;
+    
 }
 
 .header-name h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.5rem;
     transition: opacity .2s ease;
+    background-color: #001b91;
+    border-radius: 12px 0 15px 0px;
+    border-bottom: 2px solid #39ff14;
+    padding: 3px 0;
+}
+
+.header-name span {
+    color: rgb(0, 0, 0);
+    background-color: #39ff14;
+    border-radius: 0 0 12px 0;
+    padding: 3px 3px 3px 0px;
 }
 
 .header-name h1:hover {
