@@ -85,3 +85,34 @@
 .contact-info a:hover {
     color: red;
 }
+
+
+#footer {
+    height: 15vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: auto;
+    background-color: white;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: black;
+}
+
+.container-footer h2{
+    font-size: 16px;
+}
+
+.container-footer h3{
+    font-size: 14px;
+}
