@@ -1,3 +1,12 @@
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
 let header = document.getElementById('header');
 
 window.addEventListener('scroll', () => {
