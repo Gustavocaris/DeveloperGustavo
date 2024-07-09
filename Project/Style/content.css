@@ -113,13 +113,20 @@ body {
     gap: none;
 }
 
-h2 {
+.describ {
+    color: white;
+    text-align: center;
     display: flex;
     flex-direction: row; 
-    font-family: "Source Code Pro", monospace;
-    font-size: 3.2rem;
-    gap: none;
+    gap: 20px;
 }
+.inte, .annd, .dta {
+    flex-direction: row; 
+    font-size: 3.2rem;
+    font-family: "Source Code Pro", monospace;
+    
+}
+
 
 /*
 .profile-photo .photo{
@@ -190,8 +197,4 @@ h2 {
     position: relative;
     top: -50px;
     
-}
-
-.describ {
-    color: white;
 }

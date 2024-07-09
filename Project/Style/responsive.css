@@ -9,20 +9,19 @@
     }
 
     .navbar-links {
-        display: none;
-
+        display: flex;
+        
         flex-direction: column;
 
-        width: 50%;
-        height: 100vh;
+        width: 40%;
+        height: 80vh;
 
         position: fixed;
         right: 0;
         top: 0;
         background: #333;
-        
-
-        pointer-events: all;
+        clip-path: circle(100px at 90% -20%);
+        pointer-events: none;
 
         transition: .6s ease-in;
         
@@ -60,6 +59,11 @@
     }
 
     /*ATIVANDO O HAMBURGUEZIN*/
+
+    .navbar.active .navbar-links {
+        clip-path: circle(1400px at 90% -18%);
+        pointer-events: all;
+    }
     .navbar.active .menu-hamburguer {  
         border-top-color: transparent;
     }
@@ -72,9 +76,36 @@
         transform: rotate(45deg) translate(-7px, -5px);
     }
 
-
 }
 
+@media (max-width: 1300px) {
+    .describ {
+        color: red;
+        
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .inte, .annd, .dta {
+        font-size: 2rem;
+        align-items: center;
+    }
+}
+
+@media (max-width: 625px) {
+    .name-page {
+        font-size: 2rem;
+    }
+    .describ {
+        color: rgb(4, 0, 255);
+        
+        
+        text-align: center;
+    }
+    .inte, .annd, .dta {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
 
 @media (max-width: 1100px) {
     .contact-icons-global {
