@@ -5,11 +5,11 @@
 }
 
 .name-gu span {
-    animation: brilho 60s ease-in-out infinite;
+    animation: brilho 6s ease-in-out infinite;
 }
 
 .name-car span {
-    animation: brilho 60s ease-in-out infinite;
+    animation: brilho 6s ease-in-out infinite;
 }
 
 .name-gu span:nth-of-type(1) {

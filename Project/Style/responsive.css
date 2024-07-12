@@ -81,7 +81,6 @@
 @media (max-width: 1300px) {
     .describ {
         color: red;
-
     }
 }
 
@@ -89,7 +88,14 @@
     .name-page {
         font-size: 2rem;
     }
-    .describ {
+
+    .describ .title-describ {
+        font-size: 2rem;
+    }
+
+
+    .describ .title-parag {
+        font-size: 18px;
         color: rgb(4, 0, 255);
         margin: 0;
     }

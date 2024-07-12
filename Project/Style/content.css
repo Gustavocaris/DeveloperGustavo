@@ -88,6 +88,12 @@ body {
     font-weight: 700;
 
 }
+.navbar ul li a:hover {
+    color: #39ff14;
+    text-decoration: underline;
+    
+}
+
 
 #content {
     height: 94vh;
