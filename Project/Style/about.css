@@ -27,7 +27,7 @@
 .content-about {
     height: 600px;
     width: 800px;
-    background-color: rgb(36, 36, 36); /* Fundo branco semi-transparente */
+    background-color: rgb(22, 22, 22); /* Fundo branco semi-transparente */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -38,6 +38,10 @@
     display: grid;
     gap: 5px; /* Espaça os parágrafos */
 }
+
+
+
+
 
 .content-about h2 {
     color: white;
