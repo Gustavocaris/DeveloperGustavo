@@ -12,9 +12,13 @@
 .contact-icon h2 {
     margin: 3rem;
     padding: 1rem;
-
+    text-align: center;
     font-size: 3rem;
-    color: red;
+    color: white;
+    background: linear-gradient(to top right,#ffa500 0%, #ff1493 100%); /* Degradê do vermelho para o azul */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact-icons-global {

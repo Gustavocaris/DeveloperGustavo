@@ -99,7 +99,25 @@
         color: rgb(4, 0, 255);
         margin: 0;
     }
+    
 }
+
+@media (max-width: 830px) {
+    #contacts {
+        height: 60vh;
+    }
+   
+}
+ 
+
+
+@media (max-width: 769px) {
+    .box::before {
+        display: none;
+    }
+}
+
+
 
 @media (max-width: 1100px) {
     .contact-icons-global {

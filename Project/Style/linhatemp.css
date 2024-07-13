@@ -1,7 +1,7 @@
 .containerMain {
     width: 100%;
     padding: 35px 10%;
-    background-color: #14f7ff;
+    background-color: black;
 
 }
 
@@ -21,10 +21,14 @@ main.row {
 }
 
 .coluna-00 header.coluna-titulo h2 {
-    
+    font-size: 3rem;
     text-align: center;
     padding: 18px;
-    color: rgb(17, 0, 255);
+    color: white;
+    background: linear-gradient(to top right,#ffa500 0%, #ff1493 100%); /* Degradê do vermelho para o azul */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -45,7 +49,7 @@ main.row {
 }
 
 .coluna-00 .content .box:hover {
-    box-shadow: 1px 3px 12px 0px #39ff14;
+    box-shadow: 1px 3px 12px 0px rgb(17, 0, 255);
     border: solid 1px transparent;
 }
 
@@ -87,13 +91,16 @@ main.row {
 }
 
 .box p {
+    
     line-height: 1.2;
     color: white;
     font-size: 17px;
 }
 
 .box li {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
+    font-weight: 450;
 }
 
 .box .img-icon img {
