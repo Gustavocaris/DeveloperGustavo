@@ -58,6 +58,7 @@ body {
 .header-name span {
     color: rgb(0, 0, 0);
     background-color: #39ff14;
+    
     border-radius: 0 0 12px 0;
     padding: 3px 3px 3px 0px;
 }
