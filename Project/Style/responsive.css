@@ -78,6 +78,26 @@
 
 }
 
+@media (max-width: 700px) {
+    .swiper {
+        max-width: 350px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .swiper {
+        max-width: 350px;
+    }
+}
+
+
+
+
+
+
+
+
 @media (max-width: 1300px) {
     .describ {
         color: red;

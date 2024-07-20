@@ -132,7 +132,7 @@ body {
 .describ .title-describ {
     font-size: 3rem;
     color: rgb(194, 194, 194);
-    background: linear-gradient(to top right,#ffa500 0%, #ff1493 100%); /* Degradê do vermelho para o azul */
+    background: linear-gradient(to top right,#ffa500 0%, #ff1493 100%); 
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
