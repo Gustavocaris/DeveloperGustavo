@@ -1,0 +1,191 @@
+#project {
+    height: auto;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Pra esconder atras das divs*/
+  
+
+
+.project-title h2 {
+    margin: 3rem;
+    padding: 1rem;
+
+    font-size: 3rem;
+    color: white;
+    background: linear-gradient(to top right,#ffa500 0%, #ff1493 100%); /* Degradê do vermelho para o azul */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-projectss {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper{
+
+    height: 100%;
+    width: 100%;
+
+    max-width: 1020px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    height: 500px;
+    margin-top: 2rem;
+
+}
+
+/*.project-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+    height: 500px;
+    margin-top: 2rem;
+}*/
+
+.project-card {
+    /*width: 320px;
+    height: 450px;*/
+
+    height: 100%;
+    width: 100%;
+    
+
+    padding: 30px 20px 20px;
+    margin: 0px;
+
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 15px;
+    border: 2px solid #39ff14;
+
+    z-index: 1;
+}
+
+.project-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 40%;
+    width: 100%;
+
+    background: rgb(0, 0, 0);;
+    border-radius: 11px 11px 0px 0px;
+
+    z-index: -1;
+}
+
+
+/*.project-content {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    z-index: 1; /*definir a prioridade*/
+/*}*/
+
+.img-project {
+    /*height: 260px;
+    width: 270px;*/
+    /*height: 240px;
+    width: 250px;*/
+
+    max-height: 260px;
+    max-width: 270px;
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+    overflow: hidden; /*deixar escondidinho o que passar da imagem*/
+
+    border-radius: 12px;
+    border: 2px solid #39ff14;
+    margin: 0 auto;
+
+}
+
+.img-project img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: 1px solid black;
+    transition: transform .3s ease-out;
+
+}
+
+.img-project img:hover {
+    transform: scale(1.1);
+}
+
+.project-card span {
+    color: rgb(71, 58, 255);
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    margin: .75rem auto .5rem auto;
+}
+
+.project-card p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0rem .75rem;
+}
+
+.link-project {
+    width: 230px;
+    margin: auto auto 15px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+.link-project a {
+    padding: 2px 12px;
+
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+
+    border-radius: 3px;
+    text-decoration: none;
+    transition: opacity .3s ease;
+}
+
+.link-project a:hover {
+    opacity: .7;
+    color: rgb(255, 0, 0)
+}
