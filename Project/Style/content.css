@@ -38,6 +38,7 @@ body {
     right: 0;
 
     background: black;
+    transition: all .3s ease-in-out;
     border-bottom: 1.5px solid #39ff14;
 
     z-index: 2;
