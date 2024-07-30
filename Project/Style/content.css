@@ -32,6 +32,11 @@ body {
 
     width: 100%;
     padding: 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
     background: black;
     border-bottom: 1.5px solid #39ff14;
 
@@ -39,12 +44,12 @@ body {
     text-decoration: none;
 }
 
-.header-name {
+.header-title {
     text-decoration: none;
     
 }
 
-.header-name h1 {
+.header-title h1 {
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.5rem;
@@ -55,7 +60,7 @@ body {
     padding: 3px 0;
 }
 
-.header-name span {
+.header-title span {
     color: rgb(0, 0, 0);
     background-color: #39ff14;
     
@@ -63,7 +68,7 @@ body {
     padding: 3px 3px 3px 0px;
 }
 
-.header-name h1:hover {
+.header-title h1:hover {
     opacity: .8;
 }
 
@@ -79,7 +84,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
 }
 
 .navbar ul li a {
@@ -97,7 +101,7 @@ body {
 
 
 #content {
-    height: 94vh;
+    height: 100vh;
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -109,8 +113,6 @@ body {
     position: relative;
 
 }
-
-
 
 .name-page {
     display: flex;

@@ -130,8 +130,9 @@
 }
 
 .content-project p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-weight: bold;
+    font-weight: 420;
     font-size: 1rem;
     text-align: center;
     margin: 0rem .75rem;
