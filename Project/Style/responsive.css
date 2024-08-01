@@ -185,14 +185,15 @@
     }
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 1320px) {
     .profile-photo {
-        top: -60px;
+        top: -40px;
     }
     .links {
-        top: -30px;
+        top: -40px;
+        /*background-color: red;*/
     }
-    .name-page {
-        top: -30px;
-    }
+    /*.name-page {
+        top: -20px;
+    }*/
 }
