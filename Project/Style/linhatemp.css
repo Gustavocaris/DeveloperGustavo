@@ -83,11 +83,11 @@ main.row {
 .box h3 {
     font-size: 18px;
     padding: 10px ;
-    color: rgb(253, 0, 0);
+    color: rgb(0, 255, 200);
 }
 
 .box span {
-    color: #14f7ff;
+    color: #a5a5a5;
 }
 
 .box p {

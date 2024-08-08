@@ -31,7 +31,9 @@
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
     border-bottom: 5px solid #39ff14;
     
     margin: 0 20px; /* Margem lateral para garantir espaço nas bordas */
@@ -58,12 +60,27 @@
     font-size: 1em;
     line-height: 1.5;
     text-align: justify; /* Alinha o texto dos parágrafos */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
     
 }
 
 .content-about p span.crs {
-    color: rgb(0, 255, 13);
+    color: #000000;
+    background-color:  #c8ff14;
+    border-radius: 5px;
+    padding: 0px 3px 0px 3px;
 }
 .content-about p span.lang {
-    color: rgb(246, 255, 0);
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 52, 215);
+    border-radius: 5px;
+    padding: 0px 3px 0px 3px;
+}
+
+.content-about p span.lang1 {
+    color: rgb(197, 197, 197);
+    background-color: black;
+    border-radius: 5px;
+    padding: 2px 6px 2px 6px;
 }
